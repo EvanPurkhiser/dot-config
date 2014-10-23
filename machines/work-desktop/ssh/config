@@ -1,0 +1,7 @@
+Host git.codemobs.com
+  Hostname git.codemobs.com
+  User git
+  IdentityFile /home/evan/.ssh/id_rsa.codemobs
+
+Host emp.crunchydev.com
+  user croll

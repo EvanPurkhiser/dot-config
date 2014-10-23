@@ -1,0 +1,9 @@
+[Unit]
+Description=X clipboard menu
+After=xorg.service
+
+[Service]
+ExecStart=/usr/bin/xcmenu
+
+[Install]
+WantedBy=graphical.target

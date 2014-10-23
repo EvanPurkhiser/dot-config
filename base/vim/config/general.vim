@@ -25,7 +25,7 @@ set nobackup nowritebackup noswapfile
 set smartindent expandtab tabstop=4 shiftwidth=4
 
 " Ignore cache type files
-set wildignore+=*/cache/*,*.sassc
+set wildignore+=app/cache/**,*.sassc
 
 " netrw plugin configuration
 let g:netrw_banner = 0     " Don't show help banner

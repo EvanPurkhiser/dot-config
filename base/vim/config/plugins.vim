@@ -7,9 +7,6 @@ call plug#begin("$XDG_CONFIG_HOME/vim/plugged")
 " Sensible options that should always be set
 Plug 'tpope/vim-sensible'
 
-" Map common readline bindings in insert and command mode
-Plug 'tpope/vim-rsi'
-
 " Mappings for surrounding text
 Plug 'tpope/vim-surround'
 
@@ -55,5 +52,8 @@ Plug '2072/PHP-Indenting-for-VIm'
 
 " Syntax checking
 Plug 'scrooloose/syntastic'
+
+" Map common readline bindings in command mode
+Plug 'bruno-/vim-husk'
 
 call plug#end()

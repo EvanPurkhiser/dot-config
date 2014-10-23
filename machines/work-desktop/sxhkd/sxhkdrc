@@ -1,0 +1,26 @@
+# General keybindings
+mod4 + Return
+	systemd-run --user termite
+
+mod4 + e; {f, v}
+	systemd-run --user {chromium, mangler, /opt/sublime_text_3/sublime_text}
+
+mod4 + e; w
+	systemd-run --user --service-type=forking subl3
+
+mod4 + BackSpace
+	sleep 0.25 && xset dpms force off
+
+mod4 + p
+	adb shell input keyevent 26
+
+mod4 + r
+	dmenu_run -b
+
+# Reset headset volume
+# This is mostely useful for just after the google-hangouts plugin changes it...
+mod4 + v
+	pactl set-source-volume alsa_input.usb-Sennheiser_Communications_Sennheiser_USB_Headset-00-Headset.analog-mono 32768
+
+# BSPWM key bindings
+!!@@bspwm

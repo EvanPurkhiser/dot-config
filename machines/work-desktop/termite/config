@@ -1,0 +1,28 @@
+[options]
+resize_grip         = false
+scroll_on_output    = false
+scroll_on_keystroke = true
+audible_bell        = false
+visible_bell        = false
+mouse_autohide      = false
+allow_bold          = false
+dynamic_title       = true
+urgent_on_bell      = true
+clickable_url       = true
+size_hints          = false
+font                = Monospace 9
+scrollback_lines    = 1000
+search_wrap         = true
+icon_name           = utilities-terminal
+
+# "system", "on" or "off"
+cursor_blink = off
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default
+browser = chromium
+
+[colors]
+!!@@base16-ocean-dark
