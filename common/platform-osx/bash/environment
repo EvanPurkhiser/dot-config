@@ -1,7 +1,4 @@
 #!/bin/bash
 
-# Include brew binaries
-export PATH="$(brew --prefix)/bin:$PATH"
-
 # Include gnu coreutils override bin
 export PATH="$HOME/.local/lib/gnu-override/bin:$PATH"

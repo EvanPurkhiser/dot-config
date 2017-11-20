@@ -1,4 +1,7 @@
 #!/bin/bash
 
-# Use bash completion
-source "$(brew --prefix)/etc/bash_completion"
+# Use main bash completions
+source "${NIX_USER_PROFILE_DIR}/profile/etc/profile.d/bash_completion.sh"
+
+# Use additional bash completions
+for f in "${NIX_USER_PROFILE_DIR}/profile/etc/bash_completion.d/"*; do source "$f"; done
